@@ -28,7 +28,6 @@ Selectize.define('regular_expression', function (options) {
                             $(self.settings.addRegexContainerError).html("");
                         }
                     }
-                    $.post("/Movies/VerifyHour", { hour: arguments[0].value, room: parseInt() })
                 }
             }
             return original.apply(this, arguments);
